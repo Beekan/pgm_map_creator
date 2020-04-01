@@ -2,7 +2,14 @@
 Create pgm map from Gazebo world file for ROS localization
 
 ## Environment
-Tested on Ubuntu 16.04, ROS Kinetic, Boost 1.58
+Tested on Ubuntu 18.04, ROS Melodic
+
+### Install Dependencies
+We need libignition-math2-dev and protobuf-compiler to compile the map creator:
+
+```sh
+    $ sudo apt-get install libignition-math2-dev protobuf-compiler
+```
 
 ## Usage
 
